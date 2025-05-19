@@ -1,0 +1,29 @@
+body{
+    background-color: aliceblue;
+}
+h2{
+    font-family: "Arial Black";
+    font-size: 15px;
+}
+table{
+    font-family: Arial;
+    border-collapse: collapse;
+    width: 100%;
+}
+td,th{
+    border: 1px solid;
+    padding: 8px;
+}
+tr:hover{
+    background-color: blue;
+}
+th{
+    text-align: left;
+    background-color: darkorange;
+}
+.mycontainer{
+    display: flex;
+}
+.mycontainer > div{
+    width: 33.3%;
+}

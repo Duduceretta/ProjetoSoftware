@@ -1,0 +1,36 @@
+body{
+    background-color: aliceblue;
+}
+h1{
+    color: navy;
+    font-family: "Arial Black";
+}
+button{
+    width: 80px;
+    height: 30px;
+    border-radius: 4px;
+    background: red;
+}
+button:hover{
+    background-color: green;
+}
+table{
+    font-family: Arial;
+    border-collapse: collapse;
+    width: 100%;
+}
+td,th{
+    border: 1px solid;
+    padding: 8px;
+}
+tr:hover{
+    background-color: blue;
+}
+th{
+    text-align: left;
+    background-color: darkorange;
+}
+.destaque{
+    background-color: yellow;
+    font-weight: bold;
+}
