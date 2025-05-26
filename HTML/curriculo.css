@@ -1,45 +1,22 @@
 body{
-    background: linear-gradient(135deg, #8e8eaa, #8f5353);
-    min-height: 100vh;
+    background-color: aliceblue;
 }
-
 h2{
     font-family: "Arial Black";
     font-size: 15px;
-    color: black;
 }
-
-form{
-    padding-left: 20px;
-    padding-bottom: 20px;
-}
-
-.imagemForm{
-    background-image: url("https://wallpapers.com/images/featured/imagem-de-fundo-yeaxrij2aepc1xio.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-div label{
-    margin-right: 10px;
-}
-
 table{
     font-family: Arial;
     border-collapse: collapse;
     width: 100%;
 }
-
 td,th{
     border: 1px solid;
     padding: 8px;
 }
-
 tr:hover{
     background-color: blue;
 }
-
 th{
     text-align: left;
     background-color: darkorange;
@@ -49,14 +26,4 @@ th{
 }
 .mycontainer > div{
     width: 33.3%;
-}
-
-.descricao{
-    font-family: Montserrat;
-    color: white;
-}
-
-.grid-form{
-    display: flex;
-    place-items: center;
 }
