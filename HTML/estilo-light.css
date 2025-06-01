@@ -1,62 +1,74 @@
-body{
+/* Estrutura Global */
+body {
     background: linear-gradient(135deg, #8e8eaa, #8f5353);
     min-height: 100vh;
 }
 
-h2{
+/* Títulos */
+h2 {
     font-family: "Arial Black";
     font-size: 15px;
     color: black;
 }
 
-form{
+/* Texto e Descrição */
+.descricao {
+    font-family: Montserrat;
+    color: white;
+}
+
+ul.habilidades li {
+    color: white;
+}
+
+/* Formulário */
+form {
     padding-left: 20px;
     padding-bottom: 20px;
 }
 
-.imagemForm{
+.imagemForm {
     background-image: url("https://wallpapers.com/images/featured/imagem-de-fundo-yeaxrij2aepc1xio.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-div label{
+div label {
     margin-right: 10px;
 }
 
-table{
+/* Layout Flexível */
+.mycontainer {
+    display: flex;
+}
+
+.mycontainer > div {
+    width: 33.3%;
+}
+
+.grid-form {
+    display: flex;
+    place-items: center;
+}
+
+/* Tabela */
+table {
     font-family: Arial;
     border-collapse: collapse;
     width: 100%;
 }
 
-td,th{
+td, th {
     border: 1px solid;
     padding: 8px;
 }
 
-tr:hover{
-    background-color: blue;
-}
-
-th{
+th {
     text-align: left;
     background-color: darkorange;
 }
-.mycontainer{
-    display: flex;
-}
-.mycontainer > div{
-    width: 33.3%;
-}
 
-.descricao{
-    font-family: Montserrat;
-    color: white;
-}
-
-.grid-form{
-    display: flex;
-    place-items: center;
+tr:hover {
+    background-color: blue;
 }

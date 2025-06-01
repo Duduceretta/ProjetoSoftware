@@ -1,0 +1,74 @@
+/* Estrutura Global */
+body {
+    background: black;
+    min-height: 100vh;
+}
+
+/* Títulos e Texto */
+h2 {
+    font-family: "Arial Black";
+    font-size: 15px;
+    color: white;
+}
+
+.descricao {
+    font-family: Montserrat;
+    color: white;
+}
+
+ul.habilidades li {
+    color: white;
+}
+
+/* Formulário */
+form {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+div label {
+    margin-right: 10px;
+}
+
+.grid-form {
+    display: flex;
+    place-items: center;
+}
+
+.imagemForm {
+    background-image: url("https://wallpapers.com/images/featured/imagem-de-fundo-yeaxrij2aepc1xio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Layout Flexível */
+.mycontainer {
+    display: flex;
+}
+
+.mycontainer > div {
+    width: 33.3%;
+}
+
+/* Tabela */
+table {
+    font-family: Arial;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid;
+    padding: 8px;
+    background-color: white;
+}
+
+th {
+    text-align: left;
+    background-color: darkorange;
+}
+
+tr:hover {
+    background-color: blue;
+}
