@@ -21,7 +21,12 @@
         <td th:text="${produto.preco}"></td>
         <td th:text="${produto.quantidade}"></td>
         <td><img th:src="${produto.imagem}" width="100"></td>
+        <td>
+            <a th:href="@{/produto/editar/{id}(id=${produto.id})}">Editar</a>
+            <a th:href="@{/produto/deletar/{id}(id=${produto.id})}">Deletar</a>
+        </td>
     </tr>
 </table>
+<a th:href="@{/}">Index</a>
 </body>
 </html>
